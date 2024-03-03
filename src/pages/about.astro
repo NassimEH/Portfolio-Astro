@@ -1,0 +1,148 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Nassim El Haddad" description="About Nassim El Haddad">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I am Nassim El Haddad, a 19-year-old student currently in my second year pursuing a Bachelor's degree in University Technology at the University Paris-Est Créteil (UPEC). 
+						Prior to this, I successfully completed my baccalaureate with specializations in Mathematics and Computer Science, earning distinction for my achievements. 
+						Throughout my life, I've cultivated diverse passions, including theatre, piano, computer-assisted music composition (MAO), team sports, and weightlifting. 
+						These experiences have not only enriched my personal growth but also honed my ability to adapt and thrive in varied environments.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p><ul>
+						<li>Bachelor of Technology (BUT) in Computer Science</li>
+						<li>Baccalaureate with honors, specialized in Mathematics and Computer Science</li>
+						<li>Middle School Diploma with highest honors and congratulations</li>
+					  </ul>
+					  </p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p><ul>
+						<li>Problem-solving: Ability to analyze complex problems and devise effective solutions.</li>
+						<li>Communication: Proficiency in conveying technical concepts to diverse audiences and collaborating effectively within teams.</li>
+						<li>Agility: Flexibility to respond promptly to changing requirements and priorities, ensuring efficient project delivery and alignment with organizational goals.</li>
+						<li>Teamwork: Skill in working collaboratively with others to achieve common goals, leveraging individual strengths to enhance overall team performance.</li>
+					  </ul>
+					  </p>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Mon histoire</h2>
+				<div class="content">
+					<p>
+						
+						Je m'appelle Nassim El Haddad, un étudiant de 19 ans actuellement en deuxième année poursuivant un Bachelor en Technologie Universitaire à l'Université Paris-Est Créteil (UPEC). 
+						Avant cela, j'ai passé mon baccalauréat avec spécialités Mathématiques et Informatique, mention Bien. Tout au long de ma vie, j'ai eu plusieurs passions, notamment le théâtre, le piano, la composition musicale assistée par ordinateur (MAO), les sports d'équipe et la musculation. 
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes</h2>
+				<div class="content">
+					<p><ul>
+						<li>Bachelor Universitaire de Technologie (BUT) en Informatique</li>
+						<li>Baccalauréat mention Bien, spécialité Mathématiques et Informatique</li>
+						<li>Brevet des Collèges mention Très bien avec félicitations</li>
+					  </ul>
+					  </p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Aptitudes</h2>
+				<div class="content">
+					<p><ul>
+						<li>Résolution de problèmes : Capacité à analyser des problèmes complexes et à élaborer des solutions efficaces.</li>
+						<li>Communication : Maîtrise de la communication des concepts techniques à des publics divers et collaboration efficace au sein des équipes.</li>
+						<li>Agilité : Flexibilité pour répondre rapidement aux changements de besoins et de priorités, assurant une livraison de projet efficace et une alignement avec les objectifs organisationnels.</li>
+						<li>Travail d'équipe : Compétence à travailler en collaboration avec d'autres pour atteindre des objectifs communs, en tirant parti des forces individuelles pour améliorer la performance globale de l'équipe.</li>
+					  </ul>
+					  </p>
+				</div>
+			</section>
+			
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
