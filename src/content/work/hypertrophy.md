@@ -1,7 +1,7 @@
 ---
 title: Hypertrophy, how it works ?
 publishDate: 2024-02-15 00:00:00
-img: /assets/hypertrophy.jpg
+img: /portfolio/assets/hypertrophy.jpg
 img_alt: IHM
 description: |
   My Powerpoint about hypertrophy / Expression et Communication : Vulgarisation de l'Hypertrophie Musculaire
