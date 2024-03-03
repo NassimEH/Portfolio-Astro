@@ -1,7 +1,7 @@
 ---
 title: Ergonomic website
 publishDate: 2023-09-015 00:00:00
-img: /assets/IHM.jpg
+img: /portfolio/assets/IHM.jpg
 img_alt: IHM
 description: |
   We designed an ergonomic website
