@@ -1,7 +1,7 @@
 ---
 title: Infinite Dungeon RPG Game
 publishDate: 2023-06-01 00:00:00
-img: /assets/RPG.jpg
+img: /portfolio/assets/RPG.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   An amazing RPG game in Java 
