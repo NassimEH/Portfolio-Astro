@@ -2,5 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nassim-elhaddad.com',
+  site: 'https://nassimeh.github.io',
+  base: '/portfolio',
 });
