@@ -1,7 +1,7 @@
 ---
 title: Threecot website
 publishDate: 2023-05-01 00:00:00
-img: /assets/knitting.jpg
+img: /portfolio/assets/knitting.jpg
 img_alt: Threecot website
 description: |
   Our Threecot website !
