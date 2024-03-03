@@ -1,7 +1,7 @@
 ---
 title: Battleship game
 publishDate: 2023-01-01 00:00:00
-img: /assets/Battleship-Game-scaled.jpg
+img: /portfolio/assets/Battleship-Game-scaled.jpg
 img_alt: Battleship game
 description: |
   This project represents my collaborative effort to create a Battleship game entirely playable in the terminal using the C programming language. It's a classic game of strategy and skill brought to the command line, providing a fun and engaging experience for two players.
