@@ -37,7 +37,7 @@ Ce projet, une application de tableur basée sur Java développée en collaborat
 
 > Some screenshots !
 
-<img src="/assets/screentab.jpg" alt="Description of your image">
+<img src="/portfolio/assets/screentab.jpg" alt="Description of your image">
 
 > External links
 
