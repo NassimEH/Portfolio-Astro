@@ -1,7 +1,7 @@
 ---
 title: Spreadsheet app
 publishDate: 2024-01-01 00:00:00
-img: /assets/tableur.jpg
+img: /portfolio/assets/tableur.jpg
 img_alt: Spreadsheet
 description: |
   My spreadsheet in Java
